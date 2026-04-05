@@ -1,2 +1,24 @@
-# contact-book-console-based
-A simple contact book application built with Python that allows users to add, search, update, and delete contacts. This project demonstrates the use of dictionaries, loops, and basic data handling.
+# 📒 Simple Contact Book
+
+🚧 **Work in Progress**
+
+A simple contact book application built with Python. This project is currently under development and is part of my journey to improve my programming skills.
+
+## 📌 Description
+This application allows users to manage contacts by storing basic information such as name, phone number, and email. It is designed to practice core Python concepts like dictionaries, loops, and CRUD operations.
+
+## ✨ Planned Features
+- Add new contacts
+- View all contacts
+- Search for a contact
+- Update existing contact information
+- Delete contacts
+
+
+## 🛠️ Technologies Used
+- Python
+
+## 🚀 How to Run
+1. Clone the repository:
+   ```bash
+   
