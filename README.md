@@ -21,4 +21,6 @@ This application allows users to manage contacts by storing basic information su
 ## 🚀 How to Run
 1. Clone the repository:
    ```bash
-   
+   git clone https://github.com/kixxy-a11y/contact-book-console-based.git
+   cd contact-book-console-based
+   python contactMain.py
