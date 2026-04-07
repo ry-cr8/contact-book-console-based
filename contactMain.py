@@ -82,6 +82,26 @@ while True:
         elif opt == 5:
             print("Delete Contact")
 
+            name_delete = input("Enter a name to delete: ").strip().lower()
+            found = False
+
+            for index, contacts in enumerate (contacts_list):
+                if name_delete == contacts["name"].lower():
+                    contacts_list.pop(index)
+                    print("Contact deleted.")
+                    found = True
+                    break
+            
+        if not found:
+            print("Contact not found.")
+
+        elif opt == 6:
+            print("You exited the program")
+            break
+
+        else:   
+            print("Invalid option number.")
+
 
         
 
